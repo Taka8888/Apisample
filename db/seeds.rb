@@ -8,7 +8,7 @@
 
 n = 1
 while n <= 100
-  Blog.create(
+  Poem.create(
     title: "TATATATA",
     content: "hehehe",
     auther: "QQQQQQ",
