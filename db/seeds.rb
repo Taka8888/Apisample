@@ -9,8 +9,9 @@ n = 1
 while n <= 100
   Blog.create(
     title: "AAAAAAA",
-    content: "hoge",)
-
+    content: "hoge",
+    )
+    n = n + 1
 end
 
 n = 1
@@ -18,5 +19,7 @@ while n <= 100
   Blog.create(
     title: "TATATATA",
     content: "hehehe",
-    auther: "QQQQQQ",)
+    auther: "QQQQQQ",
+    )
+    n = n + 1
 end
