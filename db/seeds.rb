@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+n = 1
+while n <= 100
+  Blog.create(
+    title: "AAAAAAA",
+    content: "hoge",)
+
+end
+
+n = 1
+while n <= 100
+  Blog.create(
+    title: "TATATATA",
+    content: "hehehe",
+    auther: "QQQQQQ",)
+end
